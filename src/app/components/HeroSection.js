@@ -67,7 +67,7 @@ const HeroSection = () => {
                     alignItems='center'
                     pt={{base: 7, md: '0'}}
                 >
-                    <Box>
+                    <Box className="hero-section">
                         <Img pl={40} pt={3} src={icon}  />
                     </Box>
                     <Box pt={16} px={{ base: 10, md: '40' }} textAlign={{ base: 'center', md: 'start' }} lineHeight={{ base: 10 }}>

@@ -33,6 +33,12 @@
     color: #E23744;
 }
 
+@media (min-width: 768px) {
+  .hero-section img {
+    display: none;
+  }
+}
+
 @media only screen and (min-width: 1024px) {
     .blue {
         font-size: 72px;
