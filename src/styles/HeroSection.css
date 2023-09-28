@@ -1,0 +1,57 @@
+.blue {
+    color: #0E2368;
+    font-family: 'SourceSansProBold';
+    font-size: 48px;
+}
+
+.red {
+    color: #E23744;
+    font-family: 'SourceSansProBold';
+    font-size: 48px;
+}
+
+.subtxt {
+    color: #444957;
+    font-family: 'OpenSansRegular';
+
+}
+
+.explore-btn {
+    background-color: #E23744;
+    font-family: 'OpenSansBold';
+    border-radius: 50px;
+    padding: 3px 14px;
+}
+
+.explore-btn:hover {
+    outline: 1px solid #E23744;
+    background-color: #ffffff;
+}
+
+
+.explore-btn:hover > p {
+    color: #E23744;
+}
+
+@media only screen and (min-width: 1024px) {
+    .blue {
+        font-size: 72px;
+    }
+
+    .red {
+        font-size: 72px;
+    }
+
+    .subtxt {
+        font-size: 24px;
+    }
+
+    .explore-btn {
+        padding: 1px 16px;
+
+    }
+    .icon {
+        top: 0px;
+        padding-left: 50px;
+    }
+}
