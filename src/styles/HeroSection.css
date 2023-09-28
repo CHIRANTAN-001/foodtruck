@@ -33,7 +33,7 @@
     color: #E23744;
 }
 
-@media (min-width: 768px) {
+@media (max-width: 767px) {
   .hero-section img {
     display: none;
   }
