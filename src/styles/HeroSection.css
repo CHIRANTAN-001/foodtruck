@@ -1,36 +1,52 @@
+@import '@fontsource/open-sans';
+@import '@fontsource/source-sans-pro/400.css';
+@import '@fontsource/source-sans-pro/600.css';
+@import '@fontsource/poppins';
+
 .blue {
-    color: #0E2368;
-    font-family: 'SourceSansProBold';
-    font-size: 48px;
+  color: #0e2368;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 700;
+  font-size: 48px;
 }
 
 .red {
-    color: #E23744;
-    font-family: 'SourceSansProBold';
-    font-size: 48px;
+  color: #e23744;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 700;
+  font-size: 48px;
 }
 
 .subtxt {
-    color: #444957;
-    font-family: 'OpenSansRegular';
-
+  color: #444957;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 16.44px;
 }
 
 .explore-btn {
-    background-color: #E23744;
-    font-family: 'OpenSansBold';
-    border-radius: 50px;
-    padding: 1px 14px;
+  background-color: #e23744;
+  border-radius: 50px;
+  padding: 1px 14px;
+}
+
+.explore-btn > p {
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 600;
 }
 
 .explore-btn:hover {
-    outline: 1px solid #E23744;
-    background-color: #ffffff;
+  outline: 1px solid #e23744;
+  background-color: #ffffff;
 }
 
-
 .explore-btn:hover > p {
-    color: #E23744;
+  color: #e23744;
+}
+
+.get-in-touch-btn {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 600;
 }
 
 @media (max-width: 767px) {
@@ -40,24 +56,30 @@
 }
 
 @media only screen and (min-width: 1024px) {
-    .blue {
-        font-size: 72px;
-    }
+  .blue {
+    font-size: 72px;
+  }
 
-    .red {
-        font-size: 72px;
-    }
+  .red {
+    font-size: 72px;
+  }
 
-    .subtxt {
-        font-size: 24px;
-    }
+  .subtxt {
+    font-size: 24px;
+  }
 
-    .explore-btn {
-        padding: 1px 16px;
+  .explore-btn {
+    padding: 0px 10px;
+  }
+  .icon {
+    top: 0px;
+    padding-left: 50px;
+  }
 
-    }
-    .icon {
-        top: 0px;
-        padding-left: 50px;
-    }
+  .subtxt {
+    color: #444957;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+  }
 }

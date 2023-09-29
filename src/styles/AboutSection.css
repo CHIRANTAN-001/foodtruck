@@ -1,0 +1,55 @@
+@import '@fontsource-variable/open-sans';
+@import '@fontsource/source-sans-pro/400.css';
+@import '@fontsource/source-sans-pro/600.css';
+@import '@fontsource/poppins';
+/* @import '@fontsource/poppins/600.css'; */
+
+.about {
+    background: linear-gradient(90.07deg, rgba(30, 42, 93, 0.04) 30.91%, rgba(48, 62, 130, 0.04) 64.79%, rgba(60, 80, 157, 0.04) 91.94%);
+    width: 100%;
+    height: 50%;
+    justify-content: space-around;
+}
+
+.about-heading {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    color: #0E2368;
+    font-size: 45px;
+}
+
+.about-txt {
+    font-family: 'Open Sans Variable', sans-serif;
+    font-weight: 400;
+    color: #444957;
+    font-size: 15px;
+    line-height: 27px;
+}
+
+.about-img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.readmore-btn {
+    background-color: #E23744;
+    font-family: 'SourceSansProBold';
+    border-radius: 50px;
+    padding: 10px 30px;
+    color: #ffffff;
+}
+
+.btn-txt {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 600;
+    color: #ffffff;
+    font-size: 15px;
+    padding: 5px;
+}
+
+@media (max-width: 767px) {
+  .about-img img {
+    display: none;
+  }
+}

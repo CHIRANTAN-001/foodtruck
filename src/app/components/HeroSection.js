@@ -1,9 +1,8 @@
-import { useMediaQuery, SimpleGrid, Box, Text, Img, Button, Center } from '@chakra-ui/react'
+import { SimpleGrid, Box, Text, Img, Button, Center } from '@chakra-ui/react'
 import React from 'react'
 import icon from "../images/icon.svg"
 import pizza from "../images/herosection_image.svg"
 import clippath from "../images/clippath.svg"
-import "../../styles/fonts.css"
 import "../../styles/HeroSection.css"
 
 const HeroSection = () => {
@@ -17,7 +16,7 @@ const HeroSection = () => {
         <>
             <SimpleGrid
                 columns={columns} spacing={{ base: '10' }}
-                
+                // pb={{base: 0, md: 36}}
             >
                 <Box order={{ base: 0, md: 1 }} >
                     <Box w={{ base: '100%' }} h={{ base: 450}}>
@@ -37,7 +36,7 @@ const HeroSection = () => {
                                     backgroundColor: '#ffffff'
                                 }}
                             >
-                                <Text fontSize={{ base: 12, md: 15 }} letterSpacing={{ base: .48 , md: .48}}>Get In Touch</Text>
+                                <Text className='get-in-touch-btn' fontSize={{ base: 12, md: 15 }} letterSpacing={{ base: .48 , md: .48}}>Get In Touch</Text>
                             </Button>
                         </Box>
                         <Box position='relative'  >
@@ -68,9 +67,9 @@ const HeroSection = () => {
                     pt={{base: 7, md: '0'}}
                 >
                     <Box className="hero-section">
-                        <Img pl={40} pt={3} src={icon}  />
+                        <Img pl={32} pt={3} src={icon}  />
                     </Box>
-                    <Box pt={16} px={{ base: 10, md: '40' }} textAlign={{ base: 'center', md: 'start' }} lineHeight={{ base: 10 }}>
+                    <Box pt={16} px={{ base: 10, md: '32' }} pr={{md: '52'}} textAlign={{ base: 'center', md: 'start' }} lineHeight={{ base: 10 }}>
                         <Box lineHeight={{md: 1.1}} pb={{md: 8}}>
                             <span className='blue'>Discover the <span className='red'>Best</span> Food and Drinks</span>
                         </Box>
@@ -78,11 +77,11 @@ const HeroSection = () => {
                             <span className='subtxt' >Naturally made Healthcare Products for the better care & support of your body.</span>
                         </Box>
                     </Box>
-                    <Box pt={8} textAlign={{ base: 'center', md: 'start'}} pl={{md: '40'}}>
+                    <Box pt={8} textAlign={{ base: 'center', md: 'start'}} pl={{md: '32'}}>
                         <button
                             className='explore-btn'
                         >
-                            <Text px={4} py={4} fontSize={{ base: 15 , md: 20}} color='#ffffff'>Explore Now!</Text>
+                            <Text px={10} py={4} fontSize={{ base: 15 , md: 20}} color='#ffffff'>Explore Now!</Text>
                         </button>
                     </Box>
                 </Box>

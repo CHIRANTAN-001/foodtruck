@@ -1,0 +1,65 @@
+@import '@fontsource/source-sans-pro';
+@import '@fontsource/poppins';
+@import '@fontsource/roboto';
+
+
+.heading-txt {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 600;
+    color: #0E2368;
+    font-size: 18px;
+}
+
+.sub-txt {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+    color: #646874;
+    font-size: 11px;
+}
+
+.verified-txt {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: #828B9C;
+    font-size: 10px;
+}
+
+.verified-txt-md {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: #828B9C;
+    font-size: 14px;
+}
+
+.links {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 600;
+    color: #0E2368;
+    font-size: 18px;
+}
+
+.social-media-icon {
+  width: 20px;
+  height: 20px;
+}
+
+@media (min-width: 768px) {
+  .social-media-icon {
+    width: 30px;
+    height: 30px;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+    .heading-txt {
+        font-size: 20px;
+    }
+
+    .sub-txt {
+        font-size: 15px;
+    }
+
+    .verified-txt {
+        font-size: 12px;
+    }
+}

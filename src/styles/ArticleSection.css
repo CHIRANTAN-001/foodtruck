@@ -1,0 +1,50 @@
+@import '@fontsource/source-sans-pro';
+@import '@fontsource/poppins';
+
+
+.article-txt {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 600;
+    color: #0E2368;
+    font-size: 56px;
+}
+
+
+.card-heading {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    color: #0E2368;
+}
+
+.btn-txt {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 600;
+    color: rgba(66, 73, 97, 1);   
+}
+
+
+.pagecount {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+    font-size: 22px;
+}
+
+.faded-btn {
+  opacity: 0.5;
+}
+
+@media (max-width: 767px) {
+    .article-txt{
+        font-size: 40px;
+        /* padding-bottom: 90px; */
+    }
+    .card-heading {
+        font-size: 28px;
+    }
+    .btn-txt {
+        font-size: 18px;
+    }
+    .pagecount {
+        font-size: 18px;
+    }
+}

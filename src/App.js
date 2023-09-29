@@ -1,13 +1,21 @@
-import logo from './logo.svg';
 import './App.css';
-import { ChakraProvider } from '@chakra-ui/react';
 import HomeScreen from './app/components/HomeScreen';
+import { useEffect } from 'react';
 
 function App() {
+
+  const preventScrollBarVisibility = () => {
+    document.body.style.overflow = 'visible';
+    document.body.style['-webkit-overflow-scrolling'] = 'touch';
+  }
+
+  useEffect(() => {
+    preventScrollBarVisibility();
+  }, [])
   return (
-    // <ChakraProvider>
+    <div className='scrollable'>
       <HomeScreen/>
-    // </ChakraProvider>
+    </div>
   );
 }
 
