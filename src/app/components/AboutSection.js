@@ -13,12 +13,6 @@ const AboutSection = () => {
     return (
         <>
             <Box pt={{ md: 96, base: 20 }}>
-                {/* <SimpleGrid
-                  columns={columns}
-                  className='about'
-                  pt={{ md: 0, base: 12 }}
-                  
-              > */}
                 <Flex className='about' px={{ md: 36 }} flexDirection={{ base: 'column', md: 'row' }} justifyContent='space-around' alignItems='center'>
 
                     <Box className='about-img' pl={{md: 32}}>
@@ -31,8 +25,8 @@ const AboutSection = () => {
                             px={{ base: 6, md: 24 }}
                             h={{ base: 'auto' }}
                             w={{ base: '100%' }}
-                            pt={{ base: 20, md: 0 }}
-                            pb={{ base: 20, md: 0 }}
+                            pt={{ base: 40, md: 0 }}
+                            pb={{ base: 40, md: 0 }}
                             // px={{ md: 32 }}
                         >
                             <Box pl={{md: 20}}>
@@ -51,7 +45,6 @@ const AboutSection = () => {
                         </Flex>
                     </Box>
                 </Flex>
-                {/* </SimpleGrid> */}
             </Box>
         </>
     )
